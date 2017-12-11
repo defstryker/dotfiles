@@ -13,3 +13,9 @@ steam
 numlockx
 synapse
 clementine
+mlocate
+screenfetch
+feh
+w3m
+xorg-xrandr
+ranger
