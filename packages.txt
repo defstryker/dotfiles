@@ -1,0 +1,15 @@
+vim
+emacs
+terminator
+fish
+mpv
+lollypop
+ruby
+tk
+git
+nmap
+traceroute
+steam
+numlockx
+synapse
+clementine
