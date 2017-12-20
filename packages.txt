@@ -19,3 +19,5 @@ feh
 w3m
 xorg-xrandr
 ranger
+python-pip
+texmaker
