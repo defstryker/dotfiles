@@ -12,8 +12,9 @@ if status --is-interactive
 	set PATH $PATH ~/transient/yadm/
 	# set PATH $PATH ~/.go/bin/
 	# set PATH $PATH /home/defstryker/.gem/ruby/2.4.0/bin
-	# set -g -x GOPATH ~/.go
+	set -g -x GOPATH ~/.go
 	set -g -x PATH  $PATH /home/defstryker/.local/bin/
+	set -g -x PATH  $PATH /home/defstryker/.go/bin/
 	# set -g -x PATH  $PATH /home/defstryker/.npm/bin/
 	set -g -x GTK2_RC_FILES "/home/defstryker/.gtkrc-2.0"
 end
@@ -22,3 +23,6 @@ function p
 	eval ipython 
 end
 
+function time --description="Time just like in Bash"
+    command time --portability $argv
+end
