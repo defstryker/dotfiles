@@ -1,0 +1,25 @@
+{
+    "rust.mode": "rls",
+    "rust.rustup": {
+        "toolchain": "nightly-x86_64-unknown-linux-gnu",
+        "nightlyToolchain": "nightly-x86_64-unknown-linux-gnu"
+    },
+    "rust.rls": {
+        "useRustfmt": true
+    },
+
+    "haskell.hlint.executablePath": "/home/defstryker/.cabal/bin/hlint",
+
+    "[haskell]": {
+        "editor.tabSize": 2
+    },
+    // "[python]": {
+    //     "editor.tabSize": 2
+    // }
+
+    "workbench.colorTheme": "Monokai++",
+    "workbench.iconTheme": "Monokai Classic Icons",
+    "jshint.options": {
+        "esversion": 6
+    }
+}
