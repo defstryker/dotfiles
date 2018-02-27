@@ -23,6 +23,7 @@ set colorcolumn=80
 " tab settings
 set tabstop=4
 set expandtab
+set shiftwidth=4
 
 " syntastic recommended settings
 set statusline+=%#warningmsg#

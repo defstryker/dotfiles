@@ -13,9 +13,9 @@
     "[haskell]": {
         "editor.tabSize": 2
     },
-    // "[python]": {
-    //     "editor.tabSize": 2
-    // }
+    "[elixir]": {
+        "editor.tabSize": 2
+    }
 
     "workbench.colorTheme": "Monokai++",
     "workbench.iconTheme": "Monokai Classic Icons",
