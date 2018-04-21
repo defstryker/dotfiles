@@ -18,20 +18,22 @@ if status --is-interactive
 
     set -xg NIX_LINK "$HOME/.nix-profile"
 
+    set EDITOR /usr/bin/vim
+
 	set PATH $PATH ~/.npm-packages/bin
 	# set PATH $PATH /home/defstryker/.gem/ruby/2.4.0/bin
 	set PATH $PATH ~/.cargo/bin/
 	set PATH $PATH ~/.cabal/bin/
 	set PATH $PATH ~/transient/yadm/
 	set PATH $PATH ~/bin/
-	# set PATH $PATH /home/defstryker/.gem/ruby/2.4.0/bin
+	set PATH $PATH /home/defstryker/.gem/ruby/2.5.0/bin
 	set -g -x GOPATH ~/.go
 	set -g -x PATH  $PATH /home/defstryker/.local/bin/
 	set -g -x PATH  $PATH /home/defstryker/.go/bin/
 	# set -g -x PATH  $PATH /home/defstryker/.npm/bin/
 	set -g -x GTK2_RC_FILES "/home/defstryker/.gtkrc-2.0"
     set -xg PATH $PATH $NIX_LINK/bin
-    set -xg GOOGLE_APPLICATION_CREDENTIALS "/home/defstryker/PycharmProjects/project/project/STTPY-79e03db38772.json"
+    set -xg GOOGLE_APPLICATION_CREDENTIALS "/home/defstryker/FM/testing-grounds/consumers/NBI-Reel-P2-owner.json"
     eval fish ~/.config/fish/functions/nix.fish
     perl_path
 end

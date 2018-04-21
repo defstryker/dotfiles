@@ -15,11 +15,14 @@
     },
     "[elixir]": {
         "editor.tabSize": 2
-    }
+    },
+    "[javascriptreact]": {
+        "editor.tabSize": 2
+    },
 
-    "workbench.colorTheme": "Monokai++",
     "workbench.iconTheme": "Monokai Classic Icons",
     "jshint.options": {
         "esversion": 6
-    }
+    },
+    "workbench.colorTheme": "Monokai++"
 }
